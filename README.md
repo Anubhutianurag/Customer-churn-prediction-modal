@@ -42,23 +42,23 @@ Customer churn is a critical metric for subscription-based businesses. By levera
 ---
 ##Modeling Summary
 
-Data was cleaned and preprocessed
-Categorical variables encoded using label encoding
-SMOTE was used to handle class imbalance
-Dataset split into 80% training and 20% testing
-Multiple models were tested; Random Forest gave the best results (~84% accuracy)
-SHAP values helped interpret key features influencing churn: Tenure, MonthlyCharges, Contract, InternetService
+-Data was cleaned and preprocessed
+-Categorical variables encoded using label encoding
+-SMOTE was used to handle class imbalance
+-Dataset split into 80% training and 20% testing
+-Multiple models were tested; Random Forest gave the best results (~84% accuracy)
+-SHAP values helped interpret key features influencing churn: Tenure, MonthlyCharges, Contract, InternetService
 
 ---
 
 ## Folder Structure
 
-├── customer (1).ipynb                             # Main analysis and model training notebook
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv           # Input dataset
-├── encoders.pkl                                   # Encoders for categorical features
-├── customer_churn_model.pkl                       # Trained ML model (Random Forest)
-├── Customer-Churn-Analysis-Telecom-Industry.pdf   # Summary presentation
-├── Customer_Churn_Analysis_Full_Report.pdf        # Detailed project documentation
+-├── customer (1).ipynb                             # Main analysis and model training notebook
+-├── WA_Fn-UseC_-Telco-Customer-Churn.csv           # Input dataset
+-├── encoders.pkl                                   # Encoders for categorical features
+-├── customer_churn_model.pkl                       # Trained ML model (Random Forest)
+-├── Customer-Churn-Analysis-Telecom-Industry.pdf   # Summary presentation
+-├── Customer_Churn_Analysis_Full_Report.pdf        # Detailed project documentation
 
 ---
 
