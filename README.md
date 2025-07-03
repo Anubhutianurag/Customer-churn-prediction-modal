@@ -52,7 +52,7 @@ Customer churn is a critical metric for subscription-based businesses. By levera
 ---
 
 ## Folder Structure
-
+```plaintext
 -├── customer (1).ipynb                             # Main analysis and model training notebook
 -├── WA_Fn-UseC_-Telco-Customer-Churn.csv           # Input dataset
 -├── encoders.pkl                                   # Encoders for categorical features
